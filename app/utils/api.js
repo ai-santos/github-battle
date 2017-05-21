@@ -1,6 +1,11 @@
 var axios = require('axios');
-var id = "YOUR_CLIENT_ID";
-var sec = "YOUR_SECRET_ID"
+
+require('dotenv').config({path: '../.env'})
+
+
+var id = process.env.CLIENT_ID;
+var sec = process.env.CLIENT_SECRET;
+
 var params = "?client_id=" + id + "&client_secret=" + sec;
 
 function getProfile (username) {
