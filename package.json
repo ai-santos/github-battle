@@ -8,15 +8,9 @@
   },
   "author": "Aileen Santos",
   "license": "ISC",
-   
+
   },
-  "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
-  },
-  "dependencies": 
+  "dependencies":
   {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
